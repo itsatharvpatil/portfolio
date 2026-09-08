@@ -1,381 +1,329 @@
-<!doctype html>
-<html lang="en" data-theme="dark">
+<!DOCTYPE html>
+
+<html data-theme="dark" lang="de">
 <head>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <meta name="description" content="Atharv Patil — M.Sc. Data Science student working across machine learning, computer vision, generative AI, real-time systems and time-series modelling.">
-  <meta name="theme-color" content="#0b1020">
-  <title>Atharv Patil — Data Science & AI</title>
-  <link rel="icon" href="assets/favicon.svg" type="image/svg+xml">
-  <link rel="preload" href="assets/Atharv_Patil_CV.pdf" as="document">
-  <link rel="stylesheet" href="styles.css">
-  <meta property="og:title" content="Atharv Patil — Data Science & AI">
-  <meta property="og:description" content="Computer Vision, Generative AI, real-time systems and data-driven solutions.">
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1" name="viewport"/>
+<meta content="Atharv Patil — M.Sc.-Student der Data Science mit Schwerpunkt auf Machine Learning, Computer Vision, generativer KI, Echtzeitsystemen und Zeitreihenmodellierung." data-i18n="meta.description" data-i18n-attr="content" name="description"/>
+<meta content="#0b1020" name="theme-color"/>
+<title data-i18n="head.title">Atharv Patil — Data Science &amp; KI</title>
+<link href="assets/favicon.svg" rel="icon" type="image/svg+xml"/>
+<link as="document" href="assets/Atharv_Patil_CV.pdf" rel="preload"/>
+<link href="styles.css" rel="stylesheet"/>
+<meta content="Atharv Patil — Data Science &amp; KI" data-i18n="meta.ogTitle" data-i18n-attr="content" property="og:title"/>
+<meta content="Computer Vision, generative KI, Echtzeitsysteme und datengetriebene Lösungen." data-i18n="meta.ogDescription" data-i18n-attr="content" property="og:description"/>
 </head>
 <body>
-  <div class="reading-progress" id="readingProgress" aria-hidden="true"></div>
-
-  <header class="site-header">
-    <nav class="nav container" aria-label="Primary navigation">
-      <a class="brand" href="#top" aria-label="Atharv Patil home">
-        <span class="brand-mark">AP</span>
-        <span>Atharv Patil</span>
-      </a>
-
-      <button class="mobile-menu" id="mobileMenu" type="button" aria-label="Open navigation" aria-expanded="false" aria-controls="navLinks">
-        <span></span><span></span><span></span>
-      </button>
-
-      <div class="nav-links" id="navLinks">
-        <a href="#about" data-section="about">About</a>
-        <a href="#experience" data-section="experience">Experience</a>
-        <a href="#projects" data-section="projects">Projects</a>
-        <a href="#skills" data-section="skills">Skills</a>
-        <a href="#education" data-section="education">Education</a>
-        <a href="#contact" data-section="contact" class="nav-pill">Contact</a>
-        <button class="theme-toggle" id="themeToggle" type="button" aria-label="Switch theme">
-          <span class="theme-icon" aria-hidden="true">☾</span><span class="theme-label">Dark</span>
-        </button>
-      </div>
-    </nav>
-  </header>
-
-  <main id="top">
-    <!-- HERO -->
-    <section class="hero container">
-      <div class="hero-copy reveal">
-        <div class="hero-meta">
-          <span class="status"><i></i> Open to Werkstudent & internship opportunities</span>
-          <span>Open to relocation</span>
-        </div>
-        <p class="eyebrow">M.Sc. Data Science · TU Braunschweig</p>
-        <h1>I build <span>working solutions</span> from complex problems.</h1>
-        <p class="hero-lead">
-          I work across machine learning, computer vision, generative AI, real-time signal processing and time-series systems.
-          Different domains, one approach: understand the constraint, compare the alternatives, measure the result, and build what works.
-        </p>
-        <div class="hero-actions">
-          <a class="button primary" href="#projects">See selected work <span aria-hidden="true">↓</span></a>
-          <a class="button" href="assets/Atharv_Patil_CV.pdf" target="_blank" rel="noopener">View CV ↗</a>
-          <a class="text-link" href="mailto:patilatharv27@gmail.com">patilatharv27@gmail.com</a>
-        </div>
-        <div class="hero-facts" aria-label="Selected results">
-          <div><strong>&lt;8 ms</strong><span>trigger latency</span></div>
-          <div><strong>0.13</strong><span>LPIPS benchmark</span></div>
-          <div><strong>0.836</strong><span>mAP@0.5</span></div>
-          <div><strong>2+</strong><span>years of industry work</span></div>
-        </div>
-      </div>
-
-      <div class="hero-side reveal">
-        <div class="method-card">
-          <div class="method-head"><span class="mono">HOW I WORK</span><span class="mono">01—04</span></div>
-          <div class="method-step active"><span>01</span><div><b>Understand</b><small>Find the constraint that actually matters.</small></div></div>
-          <div class="method-step"><span>02</span><div><b>Experiment</b><small>Compare methods, not assumptions.</small></div></div>
-          <div class="method-step"><span>03</span><div><b>Measure</b><small>Use honest baselines and useful metrics.</small></div></div>
-          <div class="method-step"><span>04</span><div><b>Deliver</b><small>Make the result reproducible and usable.</small></div></div>
-        </div>
-        <div class="signal-orb" aria-hidden="true">
-          <div class="orb-grid"></div>
-          <svg viewBox="0 0 420 180" preserveAspectRatio="none">
-            <path class="wave wave-a" d="M0 128 C 45 122, 55 78, 92 86 S 138 148, 178 135 S 212 42, 248 61 S 285 153, 324 133 S 368 63, 420 84"></path>
-            <path class="wave wave-b" d="M0 135 C 50 130, 64 95, 95 100 S 143 145, 176 139 S 214 74, 252 87 S 286 145, 327 139 S 370 92, 420 105"></path>
-          </svg>
-          <div class="orb-caption"><span>DATA</span><span>MODELS</span><span>SYSTEMS</span><span>IMPACT</span></div>
-        </div>
-      </div>
-    </section>
-
-    <!-- ABOUT -->
-    <section id="about" class="section section-zone">
-      <div class="container">
-        <div class="section-heading reveal"><span class="section-number">01</span><div><p class="kicker">ABOUT</p><h2>Adaptive by method.</h2></div></div>
-        <div class="two-col">
-          <div class="about-copy reveal">
-            <p class="large">My work spans <strong>industrial AI, biomedical signal processing, computer vision, generative AI, time-series modelling, data engineering and IT systems</strong>.</p>
-            <p>The subject changes. The way I approach it does not. I start with the real constraint, build a baseline, test alternatives, and keep the metric tied to the actual decision the system has to make.</p>
-            <p>That mindset is what lets me move from a noisy respiratory signal to a low-latency trigger, from scarce industrial defect data to synthetic examples, or from a large flight dataset to a memory-efficient prediction pipeline.</p>
-          </div>
-          <aside class="profile-card reveal">
-            <div class="profile-top"><div class="avatar">AP</div><div><strong>Atharv Ashok Patil</strong><span>M.Sc. Data Science · Germany</span></div></div>
-            <div class="profile-line"><span>University</span><b>TU Braunschweig</b></div>
-            <div class="profile-line"><span>Current location</span><b>Chemnitz </b></div>
-            <div class="profile-line"><span>Languages</span><b>English C1 · German B1*</b></div>
-            <div class="profile-line"><span>Mobility</span><b>Open to relocation</b></div>
-            <p class="fine">* German B1, in progress.</p>
-            <div class="chip-row"><span>Python</span><span>PyTorch</span><span>OpenCV</span><span>Azure ML</span><span>Stable Diffusion</span></div>
-          </aside>
-        </div>
-
-        <div class="principles reveal">
-          <div><span>01</span><strong>Understand</strong><small>Define the problem before reaching for the model.</small></div>
-          <div><span>02</span><strong>Compare</strong><small>Benchmark alternatives and expose trade-offs.</small></div>
-          <div><span>03</span><strong>Measure</strong><small>Validate with metrics that answer the real question.</small></div>
-          <div><span>04</span><strong>Adapt</strong><small>Learn quickly and change course when evidence says to.</small></div>
-        </div>
-
-        <div class="now-block reveal">
-          <div><span>NOW</span><strong>Building synthetic-data and computer-vision workflows for industrial inspection.</strong></div>
-          <div><span>LEARNING</span><strong>Deepening MLOps, deployment and scalable ML practice.</strong></div>
-          <div><span>LOOKING FOR</span><strong>Werkstudent and internship opportunities where rigorous problem solving matters.</strong></div>
-        </div>
-      </div>
-    </section>
-
-    <!-- EXPERIENCE -->
-    <section id="experience" class="section">
-      <div class="container">
-        <div class="section-heading reveal"><span class="section-number">02</span><div><p class="kicker">EXPERIENCE</p><h2>Different domains. Same standard.</h2></div></div>
-        <div class="timeline">
-          <article class="timeline-item current reveal" data-tech="python pytorch opencv stable-diffusion lora patchcore">
-            <div class="timeline-marker"></div>
-            <div class="timeline-meta">Jun 2026 — Present<br>Chemnitz, Germany</div>
-            <div class="timeline-content">
-              <div class="company-row"><h3>Fraunhofer IWU</h3><span>Prüftechnik & Automation</span></div>
-              <h4>Generative AI & Computer Vision · HiWi</h4>
-              <p class="problem">Industrial defect data is scarce precisely where a detector needs it most.</p>
-              <p class="approach">I build synthetic defect-generation and evaluation workflows: controlled compositing and TPS warping for varied defects, diffusion-based edits where realism matters, LoRA fine-tuning for precise changes, and PatchCore to test whether synthetic fidelity actually translates into detectability.</p>
-              <div class="result-row"><div><b>0.13</b><span>best LPIPS</span></div><div><b>20+</b><span>variants / sample</span></div><div><b>0.5%</b><span>parameters updated</span></div></div>
-              <div class="chip-row"><span>Python</span><span>OpenCV</span><span>PyTorch</span><span>Stable Diffusion</span><span>LoRA</span><span>PatchCore</span></div>
-            </div>
-          </article>
-
-          <article class="timeline-item reveal" data-tech="python scipy numpy azure-ml pyqtgraph">
-            <div class="timeline-marker"></div>
-            <div class="timeline-meta">Jan 2024 — Jan 2026<br>Braunschweig, Germany</div>
-            <div class="timeline-content">
-              <div class="company-row"><h3>Ingenieurbüro Dr.-Ing. Eugen Koch</h3><span>Biomedical Engineering</span></div>
-              <h4>Biomedical Signal Processing & Data Science · Werkstudent</h4>
-              <p class="problem">A premature baby's respiratory signal is faint and noisy, while the trigger has milliseconds to decide.</p>
-              <p class="approach">I built an interpretable high-frequency signal-processing pipeline with adaptive normalization, slope-based triggering and a fail-safe fallback routine for apneas and irregular breathing. The system was validated on real neonatal recordings against the prior time-based approach.</p>
-              <div class="result-row"><div><b>&lt;8 ms</b><span>detection latency</span></div><div><b>~92%</b><span>precision</span></div><div><b>48%</b><span>less mismatch</span></div></div>
-
-              <div class="signal-panel">
-                <div class="panel-bar"><span class="mono">PT_04 · RESP_TRIGGER</span><button id="ventReplay" type="button">Replay</button></div>
-                <div class="signal-chart">
-                  <svg viewBox="0 0 900 250" preserveAspectRatio="none" role="img" aria-label="Synthetic comparison of respiratory signal and trigger strategies.">
-                    <defs><linearGradient id="signalFade" x1="0" x2="1"><stop offset="0" stop-color="#20c9b0" stop-opacity=".05"/><stop offset="1" stop-color="#20c9b0" stop-opacity=".22"/></linearGradient></defs>
-                    <rect x="0" y="0" width="900" height="250" fill="url(#signalFade)" opacity=".32"></rect>
-                    <line x1="0" y1="210" x2="900" y2="210" class="chart-grid"></line>
-                    <line x1="0" y1="70" x2="900" y2="70" class="chart-grid"></line>
-                    <rect x="500" y="15" width="130" height="200" class="prolonged-band"></rect>
-                    <line x1="500" y1="10" x2="500" y2="220" class="boundary"></line>
-                    <line x1="630" y1="10" x2="630" y2="220" class="boundary natural"></line>
-                    <polyline class="breath" points="0,166 8,132 16,78 22,40 28,25 42,25 58,25 72,44 84,90 98,150 112,166 132,166 148,146 156,92 164,48 172,25 188,25 206,26 222,46 234,94 246,148 258,166 280,166 296,145 304,92 312,48 320,25 336,25 354,26 370,46 382,96 394,149 406,166 430,166 446,146 454,92 462,48 470,25 486,25 500,31 514,73 530,110 548,118 566,112 584,122 602,108 618,98 630,154 642,166 658,144 666,88 674,45 682,25 698,25 716,26 732,47 744,94 756,148 768,166 786,166 802,144 810,90 818,46 826,25 842,25 858,25 876,48 888,94 900,145"></polyline>
-                    <polyline class="detect" id="detectTrace" points="0,196 42,196 42,188 84,188 84,196 128,196 128,188 172,188 172,196 214,196 214,188 258,188 258,196 300,196 300,188 344,188 344,196 388,196 388,188 432,188 432,196 476,196 476,188 500,188 505,182 510,195 515,187 520,196 525,184 530,195 535,186 540,196 545,188 550,195 555,187 560,196 565,188 570,195 575,187 580,196 585,188 590,196 596,187 602,196 608,186 614,196 620,188 630,188 630,196 672,196 672,188 714,188 714,196 758,196 758,188 800,188 800,196 844,196 844,188 888,188 888,196"></polyline>
-                    <polyline class="fallback" id="fallbackTrace" points="0,214 42,214 42,204 84,204 84,214 128,214 128,204 172,204 172,214 214,214 214,204 258,204 258,214 300,214 300,204 344,204 344,214 388,214 388,204 432,204 432,214 476,214 476,204 500,204 500,204 510,204 520,204 530,203 540,205 550,203 560,204 570,203 580,204 590,204 600,203 610,204 620,204 630,204 630,214 672,214 672,204 714,204 714,214 758,214 758,204 800,204 800,214 844,214 844,204 888,204 888,214"></polyline>
-                    <g class="trigger-labels"><text x="18" y="236">breath</text><text x="18" y="184">detect-only</text><text x="18" y="202">std-routine + fallback</text></g>
-                  </svg>
-                </div>
-                <div class="legend"><span><i class="red"></i>detect-only</span><span><i class="green"></i>std-routine + fallback</span><span><i class="teal"></i>respiratory signal</span></div>
-                <p class="panel-caption">Schematic reconstruction for the portfolio; not real patient data.</p>
-              </div>
-
-              <div class="chip-row"><span>SciPy</span><span>NumPy</span><span>Azure ML</span><span>PyQtGraph</span></div>
-            </div>
-          </article>
-
-          <article class="timeline-item reveal" data-tech="linux samba typo3">
-            <div class="timeline-marker"></div>
-            <div class="timeline-meta">Mar 2024 — Aug 2026<br>Braunschweig, Germany</div>
-            <div class="timeline-content">
-              <div class="company-row"><h3>TU Braunschweig</h3><span>Institut für Philosophie</span></div>
-              <h4>IT-HiWi & DV-Koordinator</h4>
-              <p class="problem">The institute depended on infrastructure that had to remain dependable across servers, hardware, software and users.</p>
-              <p class="approach">I administered an Ubuntu file server and Samba permissions, managed hardware/software procurement, implemented university security requirements, supported staff, documented systems and processes, and helped rebuild and transfer the institute server to the central GITZ environment.</p>
-              <div class="result-row"><div><b>50%</b><span>downtime reduction</span></div><div><b>12+</b><span>desktop/laptop systems</span></div><div><b>1</b><span>server migration</span></div></div>
-              <div class="chip-row"><span>Ubuntu</span><span>Samba</span><span>TYPO3</span><span>IT Security</span></div>
-            </div>
-          </article>
-        </div>
-
-        <div class="testimonials reveal">
-          <article class="quote-card">
-            <p class="kicker">REFERENCE · EUGEN KOCH</p>
-            <blockquote>“Outstanding understanding of his field … exceptional diligence, precision, foresight and independence.”</blockquote>
-            <footer>Dr.-Ing. Eugen Koch · Founder & CEO · Ingenieurbüro Dr.-Ing. Eugen Koch</footer>
-          </article>
-          <article class="quote-card">
-            <p class="kicker">ARBEITSZEUGNIS · TU BRAUNSCHWEIG</p>
-            <blockquote>“Stets überaus zuverlässig, vorausschauend und sorgfältig … sehr hohe Effizienz und Umsicht.”</blockquote>
-            <footer>Prof. Dr. Hans-Christoph Schmidt am Busch · Managing Director · Institut für Philosophie, TU Braunschweig</footer>
-          </article>
-        </div>
-      </div>
-    </section>
-
-    <!-- PROJECTS -->
-    <section id="projects" class="section section-zone">
-      <div class="container">
-        <div class="section-heading reveal"><span class="section-number">03</span><div><p class="kicker">SELECTED WORK</p><h2>Projects with a question behind them.</h2></div></div>
-        <p class="section-intro reveal">A compact selection of work that shows how I think across different problem types. Real outputs can be added later where sharing them is appropriate.</p>
-
-        <div class="filter-bar reveal" role="group" aria-label="Project categories">
-          <button class="filter active" data-filter="all">All</button>
-          <button class="filter" data-filter="vision">Computer Vision</button>
-          <button class="filter" data-filter="ml">ML / Data</button>
-          <button class="filter" data-filter="timeseries">Time Series</button>
-        </div>
-        <div class="skill-filter" id="skillFilter" aria-live="polite"><span id="skillFilterText"></span><button id="clearSkill" type="button">Clear</button></div>
-
-        <div class="projects-grid">
-          <article class="project-card reveal" data-category="vision" data-tech="python pytorch opencv yolov8">
-            <div class="project-visual yolo-visual"><span class="visual-label">YOLOv8 · REAL-TIME INFERENCE</span><div class="road-grid"></div><div class="bbox carbox"><b>car</b><span>0.94</span></div><div class="bbox busbox"><b>bus</b><span>0.91</span></div><div class="bbox bikebox"><b>bike</b><span>0.88</span></div></div>
-            <div class="project-body"><div class="project-top"><span>Deep Learning</span><span>Oct — Nov 2025</span></div><h3>Real-Time Traffic Object Detection</h3><p>Fine-tuned YOLOv8n on Pascal VOC and pushed the model through a live webcam pipeline to test whether benchmark performance held in real frames.</p><div class="project-result"><strong>0.836</strong><span>mAP@0.5 · 20–50 FPS</span></div><div class="chip-row"><span>YOLOv8</span><span>PyTorch</span><span>OpenCV</span></div></div>
-          </article>
-
-          <article class="project-card reveal" data-category="ml" data-tech="python pytorch">
-            <div class="project-visual emotion-visual"><span class="visual-label">FER+ · LABEL QUALITY</span><div class="face-bars"><i style="height:48.6%">48.6</i><i style="height:66.9%">66.9</i><i style="height:82.2%">82.2</i></div><div class="bar-labels"><span>MLP</span><span>MLP + FER+</span><span>CNN</span></div></div>
-            <div class="project-body"><div class="project-top"><span>Deep Learning</span><span>Jan — Mar 2026</span></div><h3>Facial Emotion Recognition</h3><p>Compared MLP and CNN models on FER-2013 and quantified how much performance changed when label quality improved through FER+ soft labels.</p><div class="project-result"><strong>+18.3pp</strong><span>MLP improvement from labels</span></div><div class="chip-row"><span>PyTorch</span><span>CNN</span><span>FER-2013</span></div></div>
-          </article>
-
-          <article class="project-card reveal" data-category="timeseries ml" data-tech="python pandas streamlit">
-            <div class="project-visual airline-visual"><span class="visual-label">AIRLINE NETWORK · TIME</span><div class="bars"><i style="height:38%"></i><i style="height:61%"></i><i style="height:46%"></i><i style="height:73%"></i><i style="height:57%"></i><i style="height:86%"></i><i style="height:68%"></i></div><div class="axis-line"></div></div>
-            <div class="project-body"><div class="project-top"><span>Data Engineering + Time Series</span><span>Oct — Dec 2025</span></div><h3>Predictive Modeling for Airline Delays</h3><p>Built a memory-efficient ETL pipeline for US BTS data, used stratified sampling and weather-based features, and surfaced NAS delay predictions in Streamlit.</p><div class="project-result"><strong>50%</strong><span>less memory in ETL</span></div><div class="chip-row"><span>Pandas</span><span>Feature Engineering</span><span>Streamlit</span></div></div>
-          </article>
-
-          <article class="project-card reveal" data-category="timeseries" data-tech="python scikit-learn azure-ml tsfresh">
-            <div class="project-visual forex-visual"><span class="visual-label">WALK-FORWARD · MT5</span><svg viewBox="0 0 300 132" preserveAspectRatio="none"><line x1="0" y1="110" x2="300" y2="110" class="chart-grid"></line><polyline class="forex-line" points="10,95 40,85 64,96 92,60 120,75 148,43 176,66 202,32 228,50 252,27 278,42 294,21"></polyline></svg></div>
-            <div class="project-body"><div class="project-top"><span>Quant / ML</span><span>Apr — Dec 2024</span></div><h3>Financial Time-Series Forecasting & MT5 Trading System</h3><p>Random Forest–based directional modelling using MT5 historical data, automated tsfresh features, Azure ML tuning/tracking, time-series validation and risk-aware execution logic.</p><div class="project-result"><strong>Precision-focused</strong><span>reduce false positives while validating strategy viability</span></div><details><summary>What is inside</summary><ul><li>Multiple Buy/Sell notebooks for controlled experimentation.</li><li>Time-Series Cross-Validation and Walk-Forward Validation to reduce look-ahead bias.</li><li>Technical features including RSI, EMA, MACD and rolling statistics.</li><li>Historical backtesting and adaptive hedging across EUR/USD, USD/CHF and USD/JPY workflows.</li><li>MT5 execution with break-even and early-stopping logic.</li></ul></details><div class="project-links"><a href="https://github.com/itsatharvpatil/Forex_MT5_Algo_Trading_Bot" target="_blank" rel="noopener">View repository ↗</a></div><div class="chip-row"><span>MT5</span><span>tsfresh</span><span>Random Forest</span><span>Azure ML</span></div></div>
-          </article>
-
-          <article class="project-card reveal" data-category="ml" data-tech="python nltk textblob vaderSentiment wordcloud quarto">
-            <div class="project-visual anxiety-visual"><span class="visual-label">REDDIT · SENTIMENT</span><div class="sentiment-cloud"><span>AI</span><span>JOBS</span><span>WORK</span><span>FUTURE</span><span>ANXIETY</span><span>AUTOMATION</span><span>SKILLS</span></div></div>
-            <div class="project-body"><div class="project-top"><span>NLP / Social Data</span><span>Jan — Sep 2025</span></div><h3>AI Job Anxiety: Reddit Sentiment Analysis</h3><p>Analyzed public Reddit discussions about AI-driven job anxiety to study sentiment, emotional tone, recurring job sectors, technologies and temporal trends.</p><div class="project-result"><strong>End-to-end</strong><span>data collection → NLP → visualization</span></div><div class="project-links"><a href="https://github.com/itsatharvpatil/AI_JOB_ANXIETY" target="_blank" rel="noopener">View repository ↗</a></div><div class="chip-row"><span>Python</span><span>NLTK</span><span>VADER</span><span>Quarto</span></div></div>
-          </article>
-
-          <article class="project-card reveal" data-category="vision" data-tech="python opencv pytorch stable-diffusion lora patchcore">
-            <div class="project-visual synthetic-visual"><span class="visual-label">SYNTHETIC DATA · INDUSTRIAL AI</span><div class="surface-field"><i></i><i></i><i></i></div><div class="compare"><div><small>REAL</small><b></b></div><div><small>SYNTHETIC</small><b></b></div></div></div>
-            <div class="project-body"><div class="project-top"><span>Fraunhofer research</span><span>2026 —</span></div><h3>Synthetic Defect Generation</h3><p>Generate controlled industrial defect variants, compare synthesis methods and test whether visual fidelity helps downstream defect detection.</p><div class="project-result"><strong>0.13</strong><span>LPIPS · best benchmark across six finishes</span></div><div class="chip-row"><span>Stable Diffusion</span><span>LoRA</span><span>OpenCV</span><span>PatchCore</span></div></div>
-          </article>
-        </div>
-      </div>
-    </section>
-
-    <!-- SKILLS -->
-    <section id="skills" class="section">
-      <div class="container">
-        <div class="section-heading reveal"><span class="section-number">04</span><div><p class="kicker">SKILLS</p><h2>What I reach for.</h2></div></div>
-        <p class="section-intro reveal">Click selected skills to see where they are used. The stack follows the problem, not the other way around.</p>
-        <div class="skills-grid reveal">
-          <div class="skill-group"><p class="cat">Programming & data</p><div class="tag-row"><button class="skill-tag" data-skill="python">Python</button><span>C++</span><span>R</span><span>Java</span><span>C#</span><span>SQL</span><span>NumPy</span><span>Pandas</span><span>SciPy</span></div></div>
-          <div class="skill-group"><p class="cat">ML & AI</p><div class="tag-row"><button class="skill-tag" data-skill="pytorch">PyTorch</button><span>TensorFlow</span><button class="skill-tag" data-skill="scikit-learn">scikit-learn</button><span>Random Forest</span><span>CNNs</span><span>Feature Engineering</span></div></div>
-          <div class="skill-group"><p class="cat">Computer vision</p><div class="tag-row"><button class="skill-tag" data-skill="opencv">OpenCV</button><button class="skill-tag" data-skill="yolov8">YOLOv8</button><span>Segmentation</span><span>PatchCore</span><span>FFT / Spectral Analysis</span></div></div>
-          <div class="skill-group"><p class="cat">Generative AI</p><div class="tag-row"><button class="skill-tag" data-skill="stable-diffusion">Stable Diffusion</button><span>Hugging Face Diffusers</span><button class="skill-tag" data-skill="lora">LoRA / PEFT</button></div></div>
-          <div class="skill-group"><p class="cat">Cloud & systems</p><div class="tag-row"><button class="skill-tag" data-skill="azure-ml">Azure ML</button><span>HyperDrive</span><button class="skill-tag" data-skill="linux">Linux</button><span>Docker</span><span>Git</span><span>Samba</span><span>TYPO3</span><span>CI/CD</span></div></div>
-          <div class="skill-group"><p class="cat">Visualization & delivery</p><div class="tag-row"><button class="skill-tag" data-skill="streamlit">Streamlit</button><span>Power BI</span><span>Tableau</span><span>Matplotlib</span><span>PyQtGraph</span></div></div>
-        </div>
-      </div>
-    </section>
-
-    <!-- EDUCATION -->
-    <section id="education" class="section section-zone">
-      <div class="container">
-        <div class="section-heading reveal"><span class="section-number">05</span><div><p class="kicker">EDUCATION</p><h2>Foundations that support the work.</h2></div></div>
-        <div class="education-grid reveal">
-
-          <article class="education-card">
-            <div class="edu-header">
-              <span class="edu-year">Apr 2023 — Sept 2027</span>
-              <span class="edu-status">Expected</span>
-            </div>
-
-            <h3>M.Sc. Data Science</h3>
-
-            <p class="edu-institution">
-              Technische Universität Braunschweig
-              <span>· Germany</span>
-            </p>
-
-            <div class="edu-grade">
-              <strong>German Grade</strong>
-              <span>2.1</span>
-            </div>
-
-            <div class="chip-row">
-              <span>ML &amp; Deep Learning</span>
-              <span>Statistical Data Analysis</span>
-              <span>Optimization</span>
-              <span>Numerical Methods</span>
-            </div>
-          </article>
-
-
-          <article class="education-card">
-            <div class="edu-header">
-              <span class="edu-year">Jun 2018 — May 2022</span>
-              <span class="edu-status completed">Completed</span>
-            </div>
-
-            <h3>B.E. Information Technology</h3>
-
-            <p class="edu-institution">
-              Vidyalankar Institute of Technology
-              <span>· University of Mumbai</span>
-            </p>
-
-            <div class="edu-grade">
-              <strong>CGPA</strong>
-              <span>8.72 / 10</span>
-              <em>≈ German Grade 1.6</em>
-            </div>
-
-            <div class="chip-row">
-              <span>Data Analysis</span>
-              <span>DBMS</span>
-              <span>Programming</span>
-              <span>Software Engineering</span>
-            </div>
-          </article>
-
-        </div>
-        <div class="academic-grid reveal">
-          <div><b>1.0</b><span>Ethics & Epistemology</span><small>5 CP</small></div>
-          <div><b>1.7</b><span>Medical Methodology Course</span><small>5 CP</small></div>
-          <div><b>1.7</b><span>Fundamentals of Computational Methods & Social Media Data Analysis with R</span><small>6 CP</small></div>
-          <div><b>1.7</b><span>The Mathematics of Data Science</span><small>7 CP</small></div>
-        </div>
-        <div class="certifications reveal">
-          <p class="kicker">CERTIFICATIONS</p>
-          <div class="cert-grid"><span>Introduction to Generative AI · Google</span><span>Introduction to LLMs · Google</span><span>Managing Big Data with MySQL · Duke University / Coursera</span><span>Python for Data Analysis, Data Science & ML · Udemy</span><span>Power BI — Data Analytics Essentials · Udemy</span></div>
-        </div>
-      </div>
-    </section>
-
-    <!-- CONTACT -->
-    <section id="contact" class="section contact-section">
-      <div class="container contact-card reveal">
-        <div><p class="kicker">06 · CONTACT</p><h2>Let's solve something useful.</h2><p>Interested in practical ML, computer vision, applied AI or data-driven systems? I'm open to Werkstudent and internship opportunities and open to relocation.</p></div>
-        <div class="contact-actions">
-          <a class="button primary" href="mailto:patilatharv27@gmail.com">Email me</a>
-          <a class="button" href="https://www.linkedin.com/in/patilatharv/" target="_blank" rel="noopener">LinkedIn ↗</a>
-          <a class="button" href="https://github.com/itsatharvpatil" target="_blank" rel="noopener">GitHub ↗</a>
-          <a class="button" href="assets/Atharv_Patil_CV.pdf" target="_blank" rel="noopener">CV ↗</a>
-        </div>
-      </div>
-    </section>
-  </main>
-
-  <footer class="site-footer">
-    <div class="footer-inner">
-      <a href="#top" class="footer-logo" aria-label="Back to top">
+<div aria-hidden="true" class="reading-progress" id="readingProgress"></div>
+<header class="site-header">
+<nav aria-label="Hauptnavigation" class="nav container" data-i18n="nav.primaryAria" data-i18n-attr="aria-label">
+<a aria-label="Atharv Patil Startseite" class="brand" data-i18n="nav.brandAria" data-i18n-attr="aria-label" href="#top">
+<span class="brand-mark">AP</span>
+<span>Atharv Patil</span>
+</a>
+<button aria-controls="navLinks" aria-expanded="false" aria-label="Navigation öffnen" class="mobile-menu" data-i18n="nav.mobileAria" data-i18n-attr="aria-label" id="mobileMenu" type="button">
+<span></span><span></span><span></span>
+</button>
+<div class="nav-links" id="navLinks">
+<a data-i18n="nav.about" data-section="about" href="#about">Über mich</a>
+<a data-i18n="nav.experience" data-section="experience" href="#experience">Erfahrung</a>
+<a data-i18n="nav.projects" data-section="projects" href="#projects">Projekte</a>
+<a data-i18n="nav.skills" data-section="skills" href="#skills">Skills</a>
+<a data-i18n="nav.education" data-section="education" href="#education">Ausbildung</a>
+<a class="nav-pill" data-i18n="nav.contact" data-section="contact" href="#contact">Kontakt</a>
+<button aria-label="Zu hellem Design wechseln" class="theme-toggle" data-i18n="theme.aria" data-i18n-attr="aria-label" id="themeToggle" type="button">
+<span aria-hidden="true" class="theme-icon">☾</span><span class="theme-label" data-i18n="theme.label">Dunkel</span>
+</button>
+<button aria-label="Auf Englisch wechseln" class="language-toggle" id="languageToggle" type="button"><span class="lang-current">DE</span><span aria-hidden="true" class="lang-divider">/</span><span class="lang-other">EN</span></button></div>
+</nav>
+</header>
+<main id="top">
+<!-- HERO -->
+<section class="hero container">
+<div class="hero-copy reveal">
+<div class="hero-meta">
+<span class="status" data-i18n-html="hero.status"><i></i> Offen für Werkstudentenstellen &amp; Praktika</span>
+<span data-i18n="hero.relocation">Offen für einen Standortwechsel</span>
+</div>
+<p class="eyebrow" data-i18n="hero.eyebrow">M.Sc. Data Science · TU Braunschweig</p>
+<h1 data-i18n-html="hero.title">Ich entwickle <span>funktionierende Lösungen</span> für komplexe Probleme.</h1>
+<p class="hero-lead" data-i18n="hero.lead">Ich arbeite an Machine Learning, Computer Vision, generativer KI, Echtzeit-Signalverarbeitung und Zeitreihensystemen. Unterschiedliche Domänen, ein Ansatz: die relevante Einschränkung verstehen, Alternativen vergleichen, das Ergebnis messen und umsetzen, was funktioniert.</p>
+<div class="hero-actions">
+<a class="button primary" data-i18n-html="hero.workCta" href="#projects">Ausgewählte Projekte <span aria-hidden="true">↓</span></a>
+<a class="button" data-i18n-html="hero.cvCta" href="assets/Atharv_Patil_CV.pdf" rel="noopener" target="_blank">CV ansehen ↗</a>
+<a class="text-link" href="mailto:patilatharv27@gmail.com">patilatharv27@gmail.com</a>
+</div>
+<div aria-label="Ausgewählte Ergebnisse" class="hero-facts" data-i18n="hero.factsAria" data-i18n-attr="aria-label">
+<div><strong>&lt;8 ms</strong><span data-i18n="hero.fact1">Trigger-Latenz</span></div>
+<div><strong>0.13</strong><span data-i18n="hero.fact2">LPIPS-Benchmark</span></div>
+<div><strong>0.836</strong><span data-i18n="hero.fact3">mAP@0.5</span></div>
+<div><strong>2+</strong><span data-i18n="hero.fact4">Jahre Industrieerfahrung</span></div>
+</div>
+</div>
+<div class="hero-side reveal">
+<div class="method-card">
+<div class="method-head"><span class="mono" data-i18n="method.head">WIE ICH ARBEITE</span><span class="mono">01—04</span></div>
+<div class="method-step active"><span>01</span><div><b data-i18n="method.understand.name">Verstehen</b><small data-i18n="method.understand.text">Die entscheidende Einschränkung identifizieren.</small></div></div>
+<div class="method-step"><span>02</span><div><b data-i18n="method.experiment.name">Experimentieren</b><small data-i18n="method.experiment.text">Methoden vergleichen, nicht Annahmen.</small></div></div>
+<div class="method-step"><span>03</span><div><b data-i18n="method.measure.name">Messen</b><small data-i18n="method.measure.text">Mit ehrlichen Baselines und sinnvollen Metriken messen.</small></div></div>
+<div class="method-step"><span>04</span><div><b data-i18n="method.deliver.name">Umsetzen</b><small data-i18n="method.deliver.text">Das Ergebnis reproduzierbar und nutzbar machen.</small></div></div>
+</div>
+<div aria-hidden="true" class="signal-orb">
+<div class="orb-grid"></div>
+<svg preserveaspectratio="none" viewbox="0 0 420 180">
+<path class="wave wave-a" d="M0 128 C 45 122, 55 78, 92 86 S 138 148, 178 135 S 212 42, 248 61 S 285 153, 324 133 S 368 63, 420 84"></path>
+<path class="wave wave-b" d="M0 135 C 50 130, 64 95, 95 100 S 143 145, 176 139 S 214 74, 252 87 S 286 145, 327 139 S 370 92, 420 105"></path>
+</svg>
+<div class="orb-caption"><span data-i18n="orb.data">DATEN</span><span data-i18n="orb.models">MODELLE</span><span data-i18n="orb.systems">SYSTEME</span><span data-i18n="orb.impact">WIRKUNG</span></div>
+</div>
+</div>
+</section>
+<!-- ABOUT -->
+<section class="section section-zone" id="about">
+<div class="container">
+<div class="section-heading reveal"><span class="section-number">01</span><div><p class="kicker" data-i18n="about.kicker">ÜBER MICH</p><h2 data-i18n="about.title">Adaptiv durch Methode.</h2></div></div>
+<div class="two-col">
+<div class="about-copy reveal">
+<p class="large" data-i18n-html="about.p1">Meine Arbeit umfasst <strong>industrielle KI, biomedizinische Signalverarbeitung, Computer Vision, generative KI, Zeitreihenmodellierung, Data Engineering und IT-Systeme</strong>.</p>
+<p data-i18n="about.p2">Die Domäne ändert sich. Meine Vorgehensweise nicht. Ich beginne mit der realen Einschränkung, baue eine Baseline, teste Alternativen und knüpfe die Metrik an die tatsächliche Entscheidung, die das System treffen soll.</p>
+<p data-i18n="about.p3">Diese Denkweise ermöglicht mir den Wechsel von einem verrauschten Atemsignal zu einem Trigger mit niedriger Latenz, von knappen industriellen Defektdaten zu synthetischen Beispielen oder von einem großen Flugdatensatz zu einer speichereffizienten Prognosepipeline.</p>
+</div>
+<aside class="profile-card reveal">
+<div class="profile-top"><div class="avatar">AP</div><div><strong>Atharv Ashok Patil</strong><span data-i18n="profile.subtitle">M.Sc. Data Science · Deutschland</span></div></div>
+<div class="profile-line"><span data-i18n="profile.university.label">Universität</span><b data-i18n="profile.university.value">TU Braunschweig</b></div>
+<div class="profile-line"><span data-i18n="profile.location.label">Aktueller Standort</span><b data-i18n="profile.location.value">Chemnitz</b></div>
+<div class="profile-line"><span data-i18n="profile.languages.label">Sprachen</span><b data-i18n="profile.languages.value">Englisch C1 · Deutsch B1*</b></div>
+<div class="profile-line"><span data-i18n="profile.mobility.label">Mobilität</span><b data-i18n="profile.mobility.value">Offen für einen Standortwechsel</b></div>
+<p class="fine" data-i18n="profile.fine">* Deutsch B1, derzeit in Arbeit.</p>
+<div class="chip-row"><span>Python</span><span>PyTorch</span><span>OpenCV</span><span>Azure ML</span><span>Stable Diffusion</span></div>
+</aside>
+</div>
+<div class="principles reveal">
+<div><span>01</span><strong data-i18n="principle.understand.name">Verstehen</strong><small data-i18n="principle.understand.text">Das Problem definieren, bevor das Modell gewählt wird.</small></div>
+<div><span>02</span><strong data-i18n="principle.compare.name">Vergleichen</strong><small data-i18n="principle.compare.text">Alternativen benchmarken und Zielkonflikte sichtbar machen.</small></div>
+<div><span>03</span><strong data-i18n="principle.measure.name">Messen</strong><small data-i18n="principle.measure.text">Mit Metriken validieren, die die eigentliche Frage beantworten.</small></div>
+<div><span>04</span><strong data-i18n="principle.adapt.name">Anpassen</strong><small data-i18n="principle.adapt.text">Schnell lernen und den Kurs ändern, wenn die Evidenz es verlangt.</small></div>
+</div>
+<div class="now-block reveal">
+<div><span data-i18n="now.label">JETZT</span><strong data-i18n="now.text">Entwicklung von Workflows für synthetische Daten und Computer Vision in der industriellen Inspektion.</strong></div>
+<div><span data-i18n="learning.label">LERNEN</span><strong data-i18n="learning.text">Vertiefung von MLOps, Deployment und skalierbarer ML-Praxis.</strong></div>
+<div><span data-i18n="looking.label">GESUCHT</span><strong data-i18n="looking.text">Werkstudenten- und Praktikumsmöglichkeiten, bei denen fundiertes Problemlösen gefragt ist.</strong></div>
+</div>
+</div>
+</section>
+<!-- EXPERIENCE -->
+<section class="section" id="experience">
+<div class="container">
+<div class="section-heading reveal"><span class="section-number">02</span><div><p class="kicker" data-i18n="exp.kicker">ERFAHRUNG</p><h2 data-i18n="exp.title">Unterschiedliche Domänen. Derselbe Anspruch.</h2></div></div>
+<div class="timeline">
+<article class="timeline-item current reveal" data-tech="python pytorch opencv stable-diffusion lora patchcore">
+<div class="timeline-marker"></div>
+<div class="timeline-meta" data-i18n-html="exp1.meta">Jun 2026 — heute&lt;br&gt;Chemnitz, Deutschland</div>
+<div class="timeline-content">
+<div class="company-row"><h3>Fraunhofer IWU</h3><span data-i18n="exp1.companyArea">Prüftechnik &amp; Automation</span></div>
+<h4 data-i18n="exp1.roleArea">Generative KI &amp; Computer Vision · HiWi</h4>
+<p class="problem" data-i18n="exp1.problem">Industrielle Defektdaten sind gerade dort knapp, wo ein Detektor sie am dringendsten benötigt.</p>
+<p class="approach" data-i18n="exp1.approach">Ich entwickle Workflows zur Erzeugung und Bewertung synthetischer Defekte: kontrolliertes Compositing und TPS-Warping für variierte Defekte, diffusionsbasierte Änderungen, wenn Realismus entscheidend ist, LoRA-Fine-Tuning für präzise Veränderungen und PatchCore, um zu prüfen, ob visuelle Qualität tatsächlich die Erkennbarkeit für die nachgelagerte Detektion verbessert.</p>
+<div class="result-row"><div><b>0.13</b><span data-i18n="exp1.result1">bester LPIPS</span></div><div><b>20+</b><span data-i18n="exp1.result2">Varianten / Beispiel</span></div><div><b>0.5%</b><span data-i18n="exp1.result3">aktualisierte Parameter</span></div></div>
+<div class="chip-row"><span>Python</span><span>OpenCV</span><span>PyTorch</span><span>Stable Diffusion</span><span>LoRA</span><span>PatchCore</span></div>
+</div>
+</article>
+<article class="timeline-item reveal" data-tech="python scipy numpy azure-ml pyqtgraph">
+<div class="timeline-marker"></div>
+<div class="timeline-meta" data-i18n-html="exp2.meta">Jan 2024 — Jan 2026&lt;br&gt;Braunschweig, Deutschland</div>
+<div class="timeline-content">
+<div class="company-row"><h3>Ingenieurbüro Dr.-Ing. Eugen Koch</h3><span data-i18n="exp2.companyArea">Biomedizinische Technik</span></div>
+<h4 data-i18n="exp2.roleArea">Biomedizinische Signalverarbeitung &amp; Data Science · Werkstudent</h4>
+<p class="problem" data-i18n="exp2.problem">Das Atemsignal eines Frühgeborenen ist schwach und verrauscht, während der Trigger in Millisekunden entscheiden muss.</p>
+<p class="approach" data-i18n="exp2.approach">Ich entwickelte eine interpretierbare, hochfrequente Signalverarbeitungspipeline mit adaptiver Normalisierung, Steigungs-basiertem Triggering und einer ausfallsicheren Fallback-Routine für Apnoen und unregelmäßige Atmung. Das System wurde anhand realer neonataler Aufzeichnungen gegen den bisherigen zeitbasierten Ansatz validiert.</p>
+<div class="result-row"><div><b>&lt;8 ms</b><span data-i18n="exp2.result1">Erkennungslatenz</span></div><div><b>~92%</b><span data-i18n="exp2.result2">Präzision</span></div><div><b>48%</b><span data-i18n="exp2.result3">weniger Abweichung</span></div></div>
+<div class="signal-panel">
+<div class="panel-bar"><span class="mono">PT_04 · RESP_TRIGGER</span><button data-i18n="signal.replay" id="ventReplay" type="button">Wiederholen</button></div>
+<div class="signal-chart">
+<svg aria-label="Schematischer Vergleich des Atemsignals und der Trigger-Strategien." data-i18n="signal.chartAria" data-i18n-attr="aria-label" preserveaspectratio="none" role="img" viewbox="0 0 900 250">
+<defs><lineargradient id="signalFade" x1="0" x2="1"><stop offset="0" stop-color="#20c9b0" stop-opacity=".05"></stop><stop offset="1" stop-color="#20c9b0" stop-opacity=".22"></stop></lineargradient></defs>
+<rect fill="url(#signalFade)" height="250" opacity=".32" width="900" x="0" y="0"></rect>
+<line class="chart-grid" x1="0" x2="900" y1="210" y2="210"></line>
+<line class="chart-grid" x1="0" x2="900" y1="70" y2="70"></line>
+<rect class="prolonged-band" height="200" width="130" x="500" y="15"></rect>
+<line class="boundary" x1="500" x2="500" y1="10" y2="220"></line>
+<line class="boundary natural" x1="630" x2="630" y1="10" y2="220"></line>
+<polyline class="breath" points="0,166 8,132 16,78 22,40 28,25 42,25 58,25 72,44 84,90 98,150 112,166 132,166 148,146 156,92 164,48 172,25 188,25 206,26 222,46 234,94 246,148 258,166 280,166 296,145 304,92 312,48 320,25 336,25 354,26 370,46 382,96 394,149 406,166 430,166 446,146 454,92 462,48 470,25 486,25 500,31 514,73 530,110 548,118 566,112 584,122 602,108 618,98 630,154 642,166 658,144 666,88 674,45 682,25 698,25 716,26 732,47 744,94 756,148 768,166 786,166 802,144 810,90 818,46 826,25 842,25 858,25 876,48 888,94 900,145"></polyline>
+<polyline class="detect" id="detectTrace" points="0,196 42,196 42,188 84,188 84,196 128,196 128,188 172,188 172,196 214,196 214,188 258,188 258,196 300,196 300,188 344,188 344,196 388,196 388,188 432,188 432,196 476,196 476,188 500,188 505,182 510,195 515,187 520,196 525,184 530,195 535,186 540,196 545,188 550,195 555,187 560,196 565,188 570,195 575,187 580,196 585,188 590,196 596,187 602,196 608,186 614,196 620,188 630,188 630,196 672,196 672,188 714,188 714,196 758,196 758,188 800,188 800,196 844,196 844,188 888,188 888,196"></polyline>
+<polyline class="fallback" id="fallbackTrace" points="0,214 42,214 42,204 84,204 84,214 128,214 128,204 172,204 172,214 214,214 214,204 258,204 258,214 300,214 300,204 344,204 344,214 388,214 388,204 432,204 432,214 476,214 476,204 500,204 500,204 510,204 520,204 530,203 540,205 550,203 560,204 570,203 580,204 590,204 600,203 610,204 620,204 630,204 630,214 672,214 672,204 714,204 714,214 758,214 758,204 800,204 800,214 844,214 844,204 888,204 888,214"></polyline>
+<g class="trigger-labels"><text data-i18n="signal.svg.breath" x="18" y="236">Atmung</text><text data-i18n="signal.svg.detect" x="18" y="184">nur Detektion</text><text data-i18n="signal.svg.fallback" x="18" y="202">Standardroutine + Fallback</text></g>
+</svg>
+</div>
+<div class="legend"><span data-i18n-html="signal.legend.detect"><i class="red"></i>nur Detektion</span><span data-i18n-html="signal.legend.fallback"><i class="green"></i>Standardroutine + Fallback</span><span data-i18n-html="signal.legend.signal"><i class="teal"></i>Atemsignal</span></div>
+<p class="panel-caption" data-i18n="signal.caption">Schematische Rekonstruktion für das Portfolio; keine echten Patientendaten.</p>
+</div>
+<div class="chip-row"><span>SciPy</span><span>NumPy</span><span>Azure ML</span><span>PyQtGraph</span></div>
+</div>
+</article>
+<article class="timeline-item reveal" data-tech="linux samba typo3">
+<div class="timeline-marker"></div>
+<div class="timeline-meta" data-i18n-html="exp3.meta">Mär 2024 — Aug 2026&lt;br&gt;Braunschweig, Deutschland</div>
+<div class="timeline-content">
+<div class="company-row"><h3>TU Braunschweig</h3><span data-i18n="exp3.companyArea">Institut für Philosophie</span></div>
+<h4 data-i18n="exp3.roleArea">IT-HiWi &amp; DV-Koordinator</h4>
+<p class="problem" data-i18n="exp3.problem">Das Institut war auf Infrastruktur angewiesen, die über Server, Hardware, Software und Nutzer hinweg zuverlässig funktionieren musste.</p>
+<p class="approach" data-i18n="exp3.approach">Ich administrierte einen Ubuntu-Dateiserver und Samba-Berechtigungen, betreute Hardware- und Softwarebeschaffung, setzte universitäre Sicherheitsanforderungen um, unterstützte Mitarbeitende, dokumentierte Systeme und Prozesse und half beim Neuaufbau und der Übertragung des Institutsservers in die zentrale GITZ-Umgebung.</p>
+<div class="result-row"><div><b>50%</b><span data-i18n="exp3.result1">weniger Ausfallzeit</span></div><div><b>12+</b><span data-i18n="exp3.result2">Desktop-/Laptop-Systeme</span></div><div><b>1</b><span data-i18n="exp3.result3">Servermigration</span></div></div>
+<div class="chip-row"><span>Ubuntu</span><span>Samba</span><span>TYPO3</span><span>IT Security</span></div>
+</div>
+</article>
+</div>
+<div class="testimonials reveal">
+<article class="quote-card">
+<p class="kicker" data-i18n="quote1.kicker">REFERENZ · EUGEN KOCH</p>
+<blockquote data-i18n="quote1.text">„Hervorragendes Verständnis seines Fachgebiets … außergewöhnliche Sorgfalt, Präzision, Weitsicht und Selbstständigkeit.“</blockquote>
+<footer data-i18n="quote1.footer">Dr.-Ing. Eugen Koch · Gründer &amp; CEO · Ingenieurbüro Dr.-Ing. Eugen Koch</footer>
+</article>
+<article class="quote-card">
+<p class="kicker" data-i18n="quote2.kicker">ARBEITSZEUGNIS · TU BRAUNSCHWEIG</p>
+<blockquote data-i18n="quote2.text">„Stets überaus zuverlässig, vorausschauend und sorgfältig … sehr hohe Effizienz und Umsicht.“</blockquote>
+<footer data-i18n="quote2.footer">Prof. Dr. Hans-Christoph Schmidt am Busch · Geschäftsführende Leitung · Institut für Philosophie, TU Braunschweig</footer>
+</article>
+</div>
+</div>
+</section>
+<!-- PROJECTS -->
+<section class="section section-zone" id="projects">
+<div class="container">
+<div class="section-heading reveal"><span class="section-number">03</span><div><p class="kicker" data-i18n="projects.kicker">AUSGEWÄHLTE PROJEKTE</p><h2 data-i18n="projects.title">Projekte mit einer Frage dahinter.</h2></div></div>
+<p class="section-intro reveal" data-i18n="projects.intro">Eine kompakte Auswahl von Arbeiten, die zeigt, wie ich unterschiedliche Problemtypen angehe. Reale Ergebnisse können ergänzt werden, sofern eine Veröffentlichung sinnvoll und zulässig ist.</p>
+<div aria-label="Projektkategorien" class="filter-bar reveal" data-i18n="projects.filterAria" data-i18n-attr="aria-label" role="group">
+<button class="filter active" data-filter="all" data-i18n="projects.all">Alle</button>
+<button class="filter" data-filter="vision" data-i18n="projects.vision">Computer Vision</button>
+<button class="filter" data-filter="ml" data-i18n="projects.ml">ML / Daten</button>
+<button class="filter" data-filter="timeseries" data-i18n="projects.timeseries">Zeitreihen</button>
+</div>
+<div aria-live="polite" class="skill-filter" id="skillFilter"><span id="skillFilterText"></span><button data-i18n="projects.clear" id="clearSkill" type="button">Zurücksetzen</button></div>
+<div class="projects-grid">
+<article class="project-card reveal" data-category="vision" data-tech="python pytorch opencv yolov8">
+<div class="project-visual yolo-visual"><span class="visual-label" data-i18n="project1.visual">YOLOv8 · ECHTZEIT-INFERENZ</span><div class="road-grid"></div><div class="bbox carbox"><b data-i18n="project1.car">Auto</b><span>0.94</span></div><div class="bbox busbox"><b data-i18n="project1.bus">Bus</b><span>0.91</span></div><div class="bbox bikebox"><b data-i18n="project1.bike">Fahrrad</b><span>0.88</span></div></div>
+<div class="project-body"><div class="project-top"><span data-i18n="project1.type">Deep Learning</span><span data-i18n="project1.date">Okt. — Nov. 2025</span></div><h3 data-i18n="project1.title">Echtzeit-Erkennung von Verkehrsobjekten</h3><p data-i18n="project1.desc">YOLOv8n auf Pascal VOC feinjustiert und anschließend in eine Live-Webcam-Pipeline integriert, um zu prüfen, ob die Benchmark-Leistung auch in echten Frames Bestand hat.</p><div class="project-result"><strong>0.836</strong><span data-i18n="project1.result">mAP@0.5 · 20–50 FPS</span></div><div class="chip-row"><span>YOLOv8</span><span>PyTorch</span><span>OpenCV</span></div></div>
+</article>
+<article class="project-card reveal" data-category="ml" data-tech="python pytorch">
+<div class="project-visual emotion-visual"><span class="visual-label" data-i18n="project2.visual">FER+ · LABELQUALITÄT</span><div class="face-bars"><i style="height:48.6%">48.6</i><i style="height:66.9%">66.9</i><i style="height:82.2%">82.2</i></div><div class="bar-labels"><span>MLP</span><span>MLP + FER+</span><span>CNN</span></div></div>
+<div class="project-body"><div class="project-top"><span data-i18n="project2.type">Deep Learning</span><span data-i18n="project2.date">Jan. — Mär. 2026</span></div><h3 data-i18n="project2.title">Erkennung von Gesichtsemotionen</h3><p data-i18n="project2.desc">MLP- und CNN-Modelle auf FER-2013 verglichen und quantifiziert, wie stark sich die Leistung durch bessere Labelqualität mit weichen FER+-Labels verändert.</p><div class="project-result"><strong>+18.3pp</strong><span data-i18n="project2.result">MLP-Verbesserung durch Labels</span></div><div class="chip-row"><span>PyTorch</span><span>CNN</span><span>FER-2013</span></div></div>
+</article>
+<article class="project-card reveal" data-category="timeseries ml" data-tech="python pandas streamlit">
+<div class="project-visual airline-visual"><span class="visual-label" data-i18n="project3.visual">FLUGNETZ · ZEIT</span><div class="bars"><i style="height:38%"></i><i style="height:61%"></i><i style="height:46%"></i><i style="height:73%"></i><i style="height:57%"></i><i style="height:86%"></i><i style="height:68%"></i></div><div class="axis-line"></div></div>
+<div class="project-body"><div class="project-top"><span data-i18n="project3.type">Data Engineering + Zeitreihen</span><span data-i18n="project3.date">Okt. — Dez. 2025</span></div><h3 data-i18n="project3.title">Prognose von Flugverspätungen</h3><p data-i18n="project3.desc">Eine speichereffiziente ETL-Pipeline für US-BTS-Daten entwickelt, stratifiziertes Sampling und wetterbasierte Features verwendet und Verspätungsprognosen in Streamlit bereitgestellt.</p><div class="project-result"><strong>50%</strong><span data-i18n="project3.result">weniger Speicher in ETL</span></div><div class="chip-row"><span>Pandas</span><span>Feature Engineering</span><span>Streamlit</span></div></div>
+</article>
+<article class="project-card reveal" data-category="timeseries" data-tech="python scikit-learn azure-ml tsfresh">
+<div class="project-visual forex-visual"><span class="visual-label" data-i18n="project4.visual">WALK-FORWARD · MT5</span><svg preserveaspectratio="none" viewbox="0 0 300 132"><line class="chart-grid" x1="0" x2="300" y1="110" y2="110"></line><polyline class="forex-line" points="10,95 40,85 64,96 92,60 120,75 148,43 176,66 202,32 228,50 252,27 278,42 294,21"></polyline></svg></div>
+<div class="project-body"><div class="project-top"><span data-i18n="project4.type">Quant / ML</span><span data-i18n="project4.date">Apr. — Dez. 2024</span></div><h3 data-i18n="project4.title">Finanzielle Zeitreihenprognose &amp; MT5-Handelssystem</h3><p data-i18n="project4.desc">Richtungsklassifikation mit Random Forest auf historischen MT5-Daten, automatisierten tsfresh-Features, Azure-ML-Tuning/-Tracking, Zeitreihenvalidierung und risikobewusster Ausführungslogik.</p><div class="project-result"><strong data-i18n="project4.resultStrong">Präzisionsfokus</strong><span data-i18n="project4.result">Präzisionsfokus</span></div><details><summary data-i18n="project4.details">Was ist enthalten?</summary><ul><li data-i18n="project4.li1">Mehrere Buy-/Sell-Notebooks für kontrollierte Experimente.</li><li data-i18n="project4.li2">Time-Series Cross-Validation und Walk-Forward Validation zur Reduktion von Look-ahead-Bias.</li><li data-i18n="project4.li3">Technische Features wie RSI, EMA, MACD und rollende Statistiken.</li><li data-i18n="project4.li4">Historisches Backtesting und adaptives Hedging für EUR/USD-, USD/CHF- und USD/JPY-Workflows.</li><li data-i18n="project4.li5">MT5-Ausführung mit Break-even- und Early-Stopping-Logik.</li></ul></details><div class="project-links"><a data-i18n="project4.repo" href="https://github.com/itsatharvpatil/Forex_MT5_Algo_Trading_Bot" rel="noopener" target="_blank">Repository ansehen ↗</a></div><div class="chip-row"><span>MT5</span><span>tsfresh</span><span>Random Forest</span><span>Azure ML</span></div></div>
+</article>
+<article class="project-card reveal" data-category="ml" data-tech="python nltk textblob vaderSentiment wordcloud quarto">
+<div class="project-visual anxiety-visual"><span class="visual-label" data-i18n="project5.visual">REDDIT · SENTIMENT</span><div class="sentiment-cloud"><span>AI</span><span>JOBS</span><span>WORK</span><span>FUTURE</span><span>ANXIETY</span><span>AUTOMATION</span><span>SKILLS</span></div></div>
+<div class="project-body"><div class="project-top"><span data-i18n="project5.type">NLP / Social Data</span><span data-i18n="project5.date">Jan. — Sept. 2025</span></div><h3 data-i18n="project5.title">AI Job Anxiety: Reddit-Sentimentanalyse</h3><p data-i18n="project5.desc">Öffentliche Reddit-Diskussionen über KI-bedingte Jobangst analysiert, um Sentiment, emotionale Tonalität, wiederkehrende Branchen, Technologien und zeitliche Trends zu untersuchen.</p><div class="project-result"><strong data-i18n="project5.resultStrong">End-to-end</strong><span data-i18n="project5.result">End-to-end</span></div><div class="project-links"><a data-i18n="project5.repo" href="https://github.com/itsatharvpatil/AI_JOB_ANXIETY" rel="noopener" target="_blank">Repository ansehen ↗</a></div><div class="chip-row"><span>Python</span><span>NLTK</span><span>VADER</span><span>Quarto</span></div></div>
+</article>
+<article class="project-card reveal" data-category="vision" data-tech="python opencv pytorch stable-diffusion lora patchcore">
+<div class="project-visual synthetic-visual"><span class="visual-label" data-i18n="project6.visual">SYNTHETISCHE DATEN · INDUSTRIELLE KI</span><div class="surface-field"><i></i><i></i><i></i></div><div class="compare"><div><small data-i18n="project6.real">REAL</small><b></b></div><div><small data-i18n="project6.synthetic">SYNTHETISCH</small><b></b></div></div></div>
+<div class="project-body"><div class="project-top"><span data-i18n="project6.type">Fraunhofer-Forschung</span><span data-i18n="project6.date">2026 —</span></div><h3 data-i18n="project6.title">Synthetische Defektgenerierung</h3><p data-i18n="project6.desc">Kontrollierte industrielle Defektvarianten erzeugt, Methoden zur Synthese verglichen und geprüft, ob visuelle Qualität die nachgelagerte Defekterkennung unterstützt.</p><div class="project-result"><strong>0.13</strong><span data-i18n="project6.result">LPIPS · bester Benchmark über sechs Oberflächen</span></div><div class="chip-row"><span>Stable Diffusion</span><span>LoRA</span><span>OpenCV</span><span>PatchCore</span></div></div>
+</article>
+</div>
+</div>
+</section>
+<!-- SKILLS -->
+<section class="section" id="skills">
+<div class="container">
+<div class="section-heading reveal"><span class="section-number">04</span><div><p class="kicker" data-i18n="skills.kicker">SKILLS</p><h2 data-i18n="skills.title">Worauf ich zurückgreife.</h2></div></div>
+<p class="section-intro reveal" data-i18n="skills.intro">Klicke ausgewählte Skills an, um zu sehen, wo sie eingesetzt werden. Der Stack folgt dem Problem, nicht umgekehrt.</p>
+<div class="skills-grid reveal">
+<div class="skill-group"><p class="cat" data-i18n="skills.programming">Programmierung &amp; Daten</p><div class="tag-row"><button class="skill-tag" data-skill="python">Python</button><span>C++</span><span>R</span><span>Java</span><span>C#</span><span>SQL</span><span>NumPy</span><span>Pandas</span><span>SciPy</span></div></div>
+<div class="skill-group"><p class="cat" data-i18n="skills.ml">ML &amp; KI</p><div class="tag-row"><button class="skill-tag" data-skill="pytorch">PyTorch</button><span>TensorFlow</span><button class="skill-tag" data-skill="scikit-learn">scikit-learn</button><span>Random Forest</span><span>CNNs</span><span>Feature Engineering</span></div></div>
+<div class="skill-group"><p class="cat" data-i18n="skills.vision">Computer Vision</p><div class="tag-row"><button class="skill-tag" data-skill="opencv">OpenCV</button><button class="skill-tag" data-skill="yolov8">YOLOv8</button><span data-i18n="skill.vision.segmentation">Segmentierung</span><span>PatchCore</span><span data-i18n="skill.vision.fft">FFT / Spektralanalyse</span></div></div>
+<div class="skill-group"><p class="cat" data-i18n="skills.genai">Generative KI</p><div class="tag-row"><button class="skill-tag" data-skill="stable-diffusion">Stable Diffusion</button><span>Hugging Face Diffusers</span><button class="skill-tag" data-skill="lora">LoRA / PEFT</button></div></div>
+<div class="skill-group"><p class="cat" data-i18n="skills.cloud">Cloud &amp; Systeme</p><div class="tag-row"><button class="skill-tag" data-skill="azure-ml">Azure ML</button><span>HyperDrive</span><button class="skill-tag" data-skill="linux">Linux</button><span>Docker</span><span>Git</span><span>Samba</span><span>TYPO3</span><span>CI/CD</span></div></div>
+<div class="skill-group"><p class="cat" data-i18n="skills.visualization">Visualisierung &amp; Bereitstellung</p><div class="tag-row"><button class="skill-tag" data-skill="streamlit">Streamlit</button><span>Power BI</span><span>Tableau</span><span>Matplotlib</span><span>PyQtGraph</span></div></div>
+</div>
+</div>
+</section>
+<!-- EDUCATION -->
+<section class="section section-zone" id="education">
+<div class="container">
+<div class="section-heading reveal"><span class="section-number">05</span><div><p class="kicker" data-i18n="education.kicker">AUSBILDUNG</p><h2 data-i18n="education.title">Grundlagen für die praktische Arbeit.</h2></div></div>
+<div class="education-grid reveal">
+<article class="education-card">
+<div class="edu-header">
+<span class="edu-year" data-i18n="education.master.date">Apr 2023 — Sept. 2027</span>
+<span class="edu-status" data-i18n="education.master.status">Voraussichtlich</span>
+</div>
+<h3>M.Sc. Data Science</h3>
+<p class="edu-institution" data-i18n-html="education.master.institution">Technische Universität Braunschweig <span>· Deutschland</span></p>
+<div class="edu-grade">
+<strong data-i18n="education.master.gradeLabel">Deutsche Note</strong>
+<span>2.1</span>
+</div>
+<div class="chip-row">
+<span data-i18n="edu.chip1">ML &amp; Deep Learning</span>
+<span data-i18n="edu.chip2">Statistische Datenanalyse</span>
+<span data-i18n="edu.chip3">Optimierung</span>
+<span data-i18n="edu.chip4">Numerische Methoden</span>
+</div>
+</article>
+<article class="education-card">
+<div class="edu-header">
+<span class="edu-year" data-i18n="education.bachelor.date">Juni 2018 — Mai 2022</span>
+<span class="edu-status completed" data-i18n="education.bachelor.status">Abgeschlossen</span>
+</div>
+<h3>B.E. Information Technology</h3>
+<p class="edu-institution" data-i18n-html="education.bachelor.institution">Vidyalankar Institute of Technology <span>· University of Mumbai</span></p>
+<div class="edu-grade">
+<strong data-i18n="education.bachelor.gradeLabel">CGPA</strong>
+<span>8.72 / 10</span>
+<em data-i18n="education.bachelor.gradeApprox">≈ Deutsche Note 1,6</em>
+</div>
+<div class="chip-row">
+<span data-i18n="edu.chip5">Datenanalyse</span>
+<span>DBMS</span>
+<span data-i18n="edu.chip6">Programmierung</span>
+<span data-i18n="edu.chip7">Software Engineering</span>
+</div>
+</article>
+</div>
+<div class="academic-grid reveal">
+<div><b>1.0</b><span data-i18n="academic.1">Ethik &amp; Epistemologie</span><small>5 CP</small></div>
+<div><b>1.7</b><span data-i18n="academic.2">Medizinischer Methodikkurs</span><small>5 CP</small></div>
+<div><b>1.7</b><span data-i18n="academic.3">Grundlagen computationaler Methoden &amp; Social-Media-Datenanalyse mit R</span><small>6 CP</small></div>
+<div><b>1.7</b><span data-i18n="academic.4">Mathematik der Data Science</span><small>7 CP</small></div>
+</div>
+<div class="certifications reveal">
+<p class="kicker" data-i18n="education.certKicker">ZERTIFIKATE</p>
+<div class="cert-grid"><span data-i18n="cert.1">Introduction to Generative AI · Google</span><span data-i18n="cert.2">Introduction to LLMs · Google</span><span data-i18n="cert.3">Managing Big Data with MySQL · Duke University / Coursera</span><span data-i18n="cert.4">Python for Data Analysis, Data Science &amp; ML · Udemy</span><span data-i18n="cert.5">Power BI — Data Analytics Essentials · Udemy</span></div>
+</div>
+</div>
+</section>
+<!-- CONTACT -->
+<section class="section contact-section" id="contact">
+<div class="container contact-card reveal">
+<div><p class="kicker" data-i18n="contact.kicker">06 · KONTAKT</p><h2 data-i18n="contact.title">Lass uns etwas Sinnvolles lösen.</h2><p data-i18n="contact.text">Interesse an praxisnaher ML, Computer Vision, angewandter KI oder datengetriebenen Systemen? Ich bin offen für Werkstudentenstellen und Praktika sowie für einen Standortwechsel.</p></div>
+<div class="contact-actions">
+<a class="button primary" data-i18n-html="contact.email" href="mailto:patilatharv27@gmail.com">E-Mail senden</a>
+<a class="button" data-i18n-html="contact.linkedin" href="https://www.linkedin.com/in/patilatharv/" rel="noopener" target="_blank">LinkedIn ↗</a>
+<a class="button" data-i18n-html="contact.github" href="https://github.com/itsatharvpatil" rel="noopener" target="_blank">GitHub ↗</a>
+<a class="button" data-i18n-html="contact.cv" href="assets/Atharv_Patil_CV.pdf" rel="noopener" target="_blank">CV ↗</a>
+</div>
+</div>
+</section>
+</main>
+<footer class="site-footer">
+<div class="footer-inner">
+<a aria-label="Zum Seitenanfang" class="footer-logo" data-i18n="footer.logoAria" data-i18n-attr="aria-label" href="#top">
         Atharv <span>Patil</span>
-      </a>
-
-      <div class="footer-bottom">
-        <span>© 2026 Atharv Patil</span>
-
-        <span class="footer-separator" aria-hidden="true">·</span>
-
-        <a href="LICENSE">MIT Licensed Code</a>
-
-        <span class="footer-separator" aria-hidden="true">·</span>
-
-        <a href="COPYRIGHT.md">Copyright &amp; Usage</a>
-      </div>
-    </div>
-  </footer>
-
-  <script src="script.js" defer></script>
+</a>
+<div class="footer-bottom">
+<span>© 2026 Atharv Patil</span>
+<span aria-hidden="true" class="footer-separator">·</span>
+<a data-i18n="footer.license" href="LICENSE">MIT-lizenzierter Code</a>
+<span aria-hidden="true" class="footer-separator">·</span>
+<a data-i18n="footer.copyright" href="COPYRIGHT.md">Urheberrecht &amp; Nutzung</a>
+</div>
+</div>
+</footer>
+<script defer="" src="script.js"></script>
 </body>
 </html>
