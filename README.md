@@ -105,3 +105,11 @@ Germany
 Email: `patilatharv27@gmail.com`  
 LinkedIn: `https://www.linkedin.com/in/patilatharv/`  
 GitHub: `https://github.com/itsatharvpatil/`
+
+
+### Integrated portfolio update
+The September 2026 version includes updated positioning, the Understand/Compare/Measure/Adapt method, evidence-led project details, and supplied TU Braunschweig, VIT, Fraunhofer and Ingenieurbüro Eugen Koch logos.
+
+
+### September 2026 revision
+The current portfolio uses a compact hero subline, an evidence-led “What's included?” project interaction, the supplied institutional marks, and an official VIT-hosted logo for the education card.
